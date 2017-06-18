@@ -10,5 +10,131 @@
   <title>Ironhack cart</title>
 </head>
 <body>
+  <div class="container">
+  <header>
+    <div class="text-header">
+      <h2>Ironhack <br>Merchandising Shop</h2>
+    </div>
+  </header>
+    <section>
+      <div class="c-section">
+
+
+      <div class="c-section-1">
+        <div class="item">
+          <span class="mySpan">IronBubble-head</span>
+        </div>
+        <div class="producto-price-1">
+          <span class="unit-price">25.00</span>
+        </div>
+        <div class="container-input">
+          <label >QTY</label>
+          <input class="quantity"t ype="text"  placeholder="0"></input>
+        </div>
+        <div class="no-price">
+          <span class"not-price">0.00</span>
+        </div>
+        <button onclick="deleteItem()" class=" btn btn-delete">
+            <span>Delete</span>
+        </button>
+      </div>
+      <div class="c-section-2">
+        <div class="item">
+          <span>IronShirt</span>
+        </div>
+        <div class="producto-price-2">
+          <span class="unit-price">15.00</span>
+        </div>
+        <div class="container-input">
+          <label >QTY</label>
+          <input class="quantity"type="text"  placeholder="0"></input>
+        </div>
+        <div class="no-price">
+          <span >0.00</span>
+        </div>
+        <button onclick="deleteItem()" class=" btn btn-delete">
+            <span>Delete</span>
+        </button>
+      </div>
+        <div class="c-section-3">
+          <div class="item">
+            <span>IronCup</span>
+          </div>
+          <div class="producto-price-3">
+            <span class="unit-price">10.00</span>
+          </div>
+          <div class="container-input">
+            <label >QTY</label>
+            <input class="quantity"type="text"  placeholder="0"></input>
+          </div>
+          <div class="no-price">
+            <span>0.00</span>
+          </div>
+          <button onclick="deleteItem()" class="btn btn-delete">
+              <span>Delete</span>
+          </button>
+          </div>
+          <div class="c-section-4">
+            <div class="item">
+              <span>IronSticker</span>
+            </div>
+            <div class="producto-price-4">
+              <span class="unit-price">1.00</span>
+            </div>
+            <div class="container-input">
+              <label >QTY</label>
+              <input class="quantity"type="text"  placeholder="0"></input>
+            </div>
+            <div class="no-price">
+              <span>0.00</span>
+            </div>
+            <button onclick="deleteItem()" class="btn btn-delete">
+                <span>Delete</span>
+            </button>
+            </div>
+            <div class="c-section-5">
+              <div class="item">
+                <span>IronAxe</span>
+              </div>
+              <div class="producto-price-5">
+                <span class="unit-price">100.00</span>
+              </div>
+              <div class="container-input">
+                <label >QTY</label>
+                <input class="quantity"type="text"  placeholder="0"></input>
+              </div>
+              <div class="no-price">
+                <span>0.00</span>
+              </div>
+              <button onclick="deleteItem()"class="btn btn-delete">
+                  <span>Delete</span>
+              </button>
+              </div>
+      </div>
+    </section>
+      <footer>
+        <div class="c-create">
+          <div class="c-left-create">
+            <input class="add-item"type="text"  placeholder=""></input>
+            <input class="add-price"type="text"  placeholder=""></input>
+          </div>
+          <div class="c-right-create">
+            <div class="btn btn-create">
+              <a>Create</a>
+
+            </div>
+
+          </div>
+
+        </div>
+        <button onclick="getTotalPrice()" class="btn btn-success">
+          <span>Calculete Prices</span>
+
+        </button>
+        <div>
+          <h2>Total Price: <span id="total-price">0</span></h2>
+        </div>
+      </footer>
+  </div>
 </body>
 </html>
